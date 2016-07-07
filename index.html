@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Live Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700|Roboto:400,300' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+     <div id="library">
+       <ul id="tab">
+            <li class="beforeTabCircle"></li>
+         <li class="beforeTab"></li>
+      
+         <li class="introtab">
+      <label for="search"><span class="eventName"> VA BOOK Awards</span><br>2016 Nominees</label>
+      </li>
+           <li class="afterTab"></li>
+         <li class="afterTabCircle"></li>
+       
+       </ul>
+       <div class="clear"></div>
+    <div id="libraryBody">
+   
+      <div id="searchBar" class="search-box btn-group">
+        <input type="search" oninput="OnInput()" name="search" id="search" class="search-field" placeholder="Search" />
+        <span class="clear-icon glyphicon glyphicon-remove"></span>
+        <input type="button" class="search" />
+      </div>
+    <div id="update"></div>
+    <script src="script.js"></script>
+    </div>
+    </div>
+  </body>
+
+</html>

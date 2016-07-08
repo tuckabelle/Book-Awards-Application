@@ -1,7 +1,7 @@
 # Book Awards Application
 This is an experimental used to practice combining JSON data into a webpage. 
 
-
+![bookapp](https://cloud.githubusercontent.com/assets/13002217/16691197/ac406c08-44f9-11e6-9b80-a6f3cce79abc.jpg)
 
 The data is automatically sorted and displayed in alphabetical order by title. As the user hovers over a book, the area expands to include an image of the book cover and a description. If no image data was entered in the JSON file, a placeholder of my own design is used. 
 
